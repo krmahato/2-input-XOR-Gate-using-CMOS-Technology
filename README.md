@@ -32,6 +32,8 @@ The Boolean expression of two-input XOR gate is Y = AB’ + A’B.
 For pull down part, there are two AND terms and one OR term. 
 Each of the AND term is realized by two series-connected n-MOSFETs. And, the OR term is realized by parallel connection of two series-connected n-MOSFETs realizing AND terms. Then for the pull up part, four p-MOSFETs are connected in a reverse manner. Two additional inverters are also required to obtain the inverse of both variables, i.e. A and B. With these inverters the final circuit will contain in total of 12 transistors.
 
+![20220219_183454087_001](https://user-images.githubusercontent.com/100530105/155898602-0464d156-19d4-4b76-975d-e4d9efca6e74.jpg)
+
 Fig.3 Reference Circuit Diagram
 
 ## Reference Circuit Waveform
@@ -71,6 +73,7 @@ After successfully creating the schematic, Primewave is used to start the simula
 ![transient ana](https://user-images.githubusercontent.com/100530105/155896126-2c245204-5291-422e-a878-79f10c08b5ef.png)
 
 Fig.4 Setting for Transient Analysis
+
 Then add the outputs which needs to be plotted by selecting the nets on the schematic.
 
 Then goto 'Simulations'->'Netlist and Run' to generate a netlist and run the simulation.
